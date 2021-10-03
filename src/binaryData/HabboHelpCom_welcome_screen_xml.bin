@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="navigator_highlighter" width="309" height="92" version="0.1" uid="71A3AF99-17C7-94B3-5902-53148301128D">
+  <window>
+    <container x="0" y="0" width="309" height="92" params="0" style="0">
+      <children>
+        <frame x="9" y="0" width="300" height="92" params="8388625" style="0" name="frame" caption="title" color="0xff418db0">
+          <children>
+            <text x="0" y="0" width="278" height="72" params="16" style="0" name="title" caption="%24%7B001_lorem_ipsum_title%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="18" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <closebutton x="273" y="1" width="18" height="24" params="17" style="0" name="close" caption="title" background="true" treshold="0"/>
+            <container x="4" y="28" width="280" height="2" params="16" style="0" caption="title" color="0x4444ffffff" background="true"/>
+            <text x="4" y="42" width="280" height="18" params="8388624" style="0" name="text" caption="%24%7B002_lorem_ipsum_content%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="13" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </frame>
+        <bitmap x="0" y="40" width="12" height="20" params="16" style="0" name="arrow"/>
+      </children>
+    </container>
+  </window>
+</layout>
